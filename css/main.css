@@ -2,9 +2,8 @@ html {
   box-sizing: border-box;
   background-color: #c9b5ab;
   font-family: "PT Serif", serif;
-  color: #222;
-  line-height: 1.5;
   font-weight: normal;
+  line-height: 1.5;
 }
 
 *, *::before, *::after {
@@ -12,11 +11,10 @@ html {
 }
 
 /* font-family: 'PT Sans', sans-serif;
-font-family: 'PT Serif', serif;*/
-
- /*Text sizes: 1.5rem, 1.125rem, 0.8rem
+font-family: 'PT Serif', serif; */
+/* Text sizes: 1.5rem, 1.125rem, 0.8rem
 Line height: 1.5
-Colours: #c9b5ab, #8f2440, #222, #3f1622*/
+Colours: #c9b5ab, #8f2440, #222, #3f1622 */
 
 img {
   width: 100%;
@@ -27,18 +25,20 @@ figcaption {
   text-align: center;
 }
 
-h1,h2 {
+h1, h2 {
+  font-size: 1.5rem;
   color: #3f1622;
   font-family: "PT Sans", sans-serif;
 }
 
 nav ol {
   list-style-type: none;
+  font-size: 1.125rem;
   color: #8f2440;
-  font-family: 'PT Sans', sans-serif;
+  font-family: "PT Sans", sans-serif;
 }
 
-a:link {
+a {
   text-decoration: none;
   color: #8f2440;
 }
@@ -48,23 +48,28 @@ a:hover {
   color: #3f1622;
 }
 
+main, aside {
+  color: #222;
+  line-height: 1.5;
+}
+
 .first-paragraph {
   font-size: 1.125rem;
   font-weight: bold;
-  }
+}
 
-  blockquote {
-    font-size: 1.5rem;
-    font-style: italic;
-  }
+blockquote {
+  font-size: 1.5rem;
+  font-style: italic;
+}
 
-  blockquote > footer {
-    font-size: .8rem;
-  }
+blockquote > footer {
+  font-size: .8rem;
+}
 
-  main ol {
-    list-style-type: lower-greek;
-  }
+main ol {
+  list-style-type: lower-greek;
+}
 
 .serving-size {
   font-style: italic;
@@ -74,7 +79,11 @@ dl dt {
   font-weight: bold;
 }
 
-aside > ul > li {
+aside {
   list-style-type: circle;
+  font-size: .8rem;
+}
+
+footer {
   font-size: .8rem;
 }
