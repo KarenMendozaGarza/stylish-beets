@@ -3,6 +3,8 @@ html {
   background-color: #c9b5ab;
   font-family: "PT Serif", serif;
   color: #222;
+  line-height: 1.5;
+  font-weight: normal;
 }
 
 *, *::before, *::after {
@@ -70,4 +72,9 @@ a:hover {
 
 dl dt {
   font-weight: bold;
+}
+
+aside > ul > li {
+  list-style-type: circle;
+  font-size: .8rem;
 }
