@@ -87,3 +87,7 @@ aside {
 footer {
   font-size: .8rem;
 }
+
+.bold {
+  font-weight: normal;
+}
