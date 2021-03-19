@@ -1,0 +1,35 @@
+html {
+  box-sizing: border-box;
+  background-color: #c9b5ab;
+  font-family: "PT Serif", serif;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+/* font-family: 'PT Sans', sans-serif;
+font-family: 'PT Serif', serif;*/
+
+ /*Text sizes: 1.5rem, 1.125rem, 0.8rem
+Line height: 1.5
+Colours: #c9b5ab, #8f2440, #222, #3f1622*/
+
+img {
+  width: 100%;
+}
+
+h1 {
+  color: #3f1622;
+  font-family: "PT Sans", sans-serif;
+}
+
+nav ol {
+  list-style-type: none;
+  color: #8f2440;
+}
+
+a:link {
+  text-decoration: none;
+  color: #8f2440;
+}
